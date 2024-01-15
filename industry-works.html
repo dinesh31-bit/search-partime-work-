@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Industry Jobs</title>
+  <style>
+    body {
+      width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #f2f4f6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .job-listings {
+      max-width: 600px;
+    }
+
+    .job-listing {
+      
+      background-color: #ff7200;
+      border: 2px solid #040404;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      transition: transform 0.1s ease-in-out;
+    }
+
+    .job-listing:hover {
+      transform: scale(1.05);
+    }
+
+    .job-listing h3 {
+      margin-bottom: 10px;
+      color: #171616;
+    }
+
+    .job-listing p {
+      margin-bottom: 2px;
+      color: #f9f9f9;
+    }
+
+    .job-listing button {
+      background-color: #11ff09;
+      color: #0f70d1;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .job-listing button:hover {
+      background-color: #e4eae4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="job-listings">
+    <div class="job-listing" onclick="showJobDetails('Job 1', 'Part-Time', 'Location 1', 'Pay $50/day')">
+      <h3>Job 1</h3>
+      <p>Type: Part-Time</p>
+      <p>Location: Location 1</p>
+      <p>Pay: $50/day</p>
+      <button>Show Details</button>
+    </div>
+    <div class="job-listing" onclick="showJobDetails('Job 2', 'Part-Time', 'Location 2', 'Pay $60/day')">
+      <h3>Job 2</h3>
+      <p>Type: Part-Time</p>
+      <p>Location: Location 2</p>
+      <p>Pay: $60/day</p>
+      <button>Show Details</button>
+    </div>
+    <!-- Add more job listings as needed -->
+  </div>
+
+  <script>
+    function showJobDetails(title, type, location, pay) {
+      // You can customize how you want to display the job details
+      alert(`Job Details:\nTitle: ${title}\nType: ${type}\nLocation: ${location}\nPay: ${pay}`);
+    }
+  </script>
+
+</body>
+</html>
