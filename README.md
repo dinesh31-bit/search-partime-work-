@@ -1,0 +1,6 @@
+this is a project where we can search a partime job and a employer can find the type of job he need to work
+1'st after login we will see 2 sections 1.work provider 2. employer. 
+2'nd the user who need partime job can press employer and another section will be sellected by a person who need a partime worker.
+if a user press work provider he need to enter some details like where it is located and amount of the work per day.
+and if a person nwwe partime work he need to press employer button . it will open a new page about the work type like whether he need to work in construction,industry,shops,etc..... 
+after selecting the work type he neesd to work there will be some partime works and their breaf explanation.
