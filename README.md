@@ -1,4 +1,4 @@
-this is a project where we can search a part-time job or a full  time employee and a employer can find the specific type of job he need to work
+this is a project where we can search a part-time job or a full  time employee and a employer can find the specific type of work
 1'st after login we will see 2 sections 1.work provider 2. employer. 
 2'nd the user who need part-time job can press employer and another section will be sellected by a person who need a part-time worker or full time employee.
 if a user press work provider he need to enter some details for the job he need to provide like where it is located and amount of the work per day.
